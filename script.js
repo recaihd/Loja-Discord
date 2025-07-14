@@ -25,10 +25,6 @@
       descricao: "Apoie o <strong>ter3cotec0</strong> financeiramente!",
       beneficios: ["✅ Todos os benefícios do cargo VIP <strong>ETERNO!</strong>", "✅ Agradecimento especial do teo", "✅ Cargo personalizado", "✅ Perde o family friend e pode xingar no chat sem perigo do automod", "✅ com limites claro..."],
     },
-    "Fã do salamon": {
-      descricao: "Apoie o <strong>salamon</strong> financeiramente!",
-      beneficios: ["✅ Todos os benefícios do cargo VIP <strong>ETERNO!</strong>", "✅ Agradecimento especial do salamon", "✅ Cargo personalizado"],
-    },
     "Tranque o chat": {
         descricao: "Tranque o chat-geral por 1 hora!",
         beneficios: ["Aparece que você trancou (caso queira)"],
