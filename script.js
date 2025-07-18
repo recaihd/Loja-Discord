@@ -13,10 +13,6 @@
       descricao: "Apoie o <strong>malf</strong> financeiramente!",
       beneficios: ["✅ Todos os benefícios do cargo VIP <strong>ETERNO!</strong>", "✅ Agradecimento especial do malf", "✅ Cargo personalizado", "✅ Te ajudo a configurar seu mod no miencraft java"],
     },
-    "Fã do never": {
-      descricao: "Apoie o <strong>never</strong> financeiramente!",
-      beneficios: ["✅ Todos os béneficios do cargo VIP <strong>ETERNO!</strong>", "✅ Agradecimento especial do never", "✅ Cargo personalizado", "✅ Poder marcar o never"],
-    },
     "Fã do recai": {
       descricao: "Apoie o <strong>recai</strong> financeiramente!",
       beneficios: ["✅ Todos os benefícios do cargo VIP <strong>ETERNO!</strong>", "✅ Agradecimento especial do recai", "✅ Cargo personalizado", "✅ Aulas de HTML + CSS"],
