@@ -9,10 +9,6 @@
       descricao: "Apoie o <strong>max</strong> financeiramente!",
       beneficios: ["✅ Todos os benefícios do cargo VIP <strong>ETERNO!</strong>", "✅ Agradecimento especial do Max", "✅ Cargo personalizado"],
     },
-    "Fã do malf": {
-      descricao: "Apoie o <strong>malf</strong> financeiramente!",
-      beneficios: ["✅ Todos os benefícios do cargo VIP <strong>ETERNO!</strong>", "✅ Agradecimento especial do malf", "✅ Cargo personalizado", "✅ Te ajudo a configurar seu mod no miencraft java"],
-    },
     "Fã do recai": {
       descricao: "Apoie o <strong>recai</strong> financeiramente!",
       beneficios: ["✅ Todos os benefícios do cargo VIP <strong>ETERNO!</strong>", "✅ Agradecimento especial do recai", "✅ Cargo personalizado", "✅ Aulas de HTML + CSS"],
