@@ -9,13 +9,17 @@
       descricao: "Apoie o <strong>max</strong> financeiramente!",
       beneficios: ["✅ Todos os benefícios do cargo VIP <strong>ETERNO!</strong>", "✅ Agradecimento especial do Max", "✅ Cargo personalizado"],
     },
+     "Fã do malf": {
+      descricao: "Apoie o <strong>max</strong> financeiramente!",
+      beneficios: ["✅ Todos os benefícios do cargo VIP <strong>ETERNO!</strong>", "✅ Agradecimento especial do Malf", "✅ Cargo personalizado"],
+    },
     "Fã do recai": {
       descricao: "Apoie o <strong>recai</strong> financeiramente!",
       beneficios: ["✅ Todos os benefícios do cargo VIP <strong>ETERNO!</strong>", "✅ Agradecimento especial do recai", "✅ Cargo personalizado", "✅ Aulas de HTML + CSS"],
     },
     "Fã do ter3cotec0": {
       descricao: "Apoie o <strong>ter3cotec0</strong> financeiramente!",
-      beneficios: ["✅ Todos os benefícios do cargo VIP <strong>ETERNO!</strong>", "✅ Agradecimento especial do teo", "✅ Cargo personalizado", "✅ Perde o family friend e pode xingar no chat sem perigo do automod", "✅ com limites claro..."],
+      beneficios: ["✅ Todos os benefícios do cargo VIP <strong>ETERNO!</strong>", "✅ Agradecimento especial do teo", "✅ Cargo personalizado", "✅ Perde o family friend e pode xingar no chat sem perigo do automod", "✅ com limites claro...", "✅ Cor do cargo personalizada"],
     },
     "Tranque o chat": {
         descricao: "Tranque o chat-geral por 1 hora!",
