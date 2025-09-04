@@ -5,16 +5,26 @@
     font-family: Arial, Helvetica, sans-serif;
   }
 
-  .header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 200px;
-    background-color: rgb(28,30,49);
-  }
+.header {
+  height: 250px;
+  background: url('./img/fernnnn.webp') no-repeat center center;
+  background-size: cover; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.header .logo {
+  width: 150px;      
+  border-radius: 50%; 
+  z-index: 2;         
+}
+
 
   .header img {
-    width: 200px;
+    width: 245px;
+    border-radius: 100px;
   }
 
   .titulo {
@@ -48,7 +58,7 @@
   }
 
   .card {
-    background: linear-gradient(to bottom, #00BFFF, #0099FF);
+    background: linear-gradient(to bottom, #006eff, #0099FF);
     border-radius: 12px;
     width: 150px;
     padding: 20px;
