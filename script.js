@@ -3,7 +3,7 @@
   const popupPrice = document.getElementById('popupPrice');
   const popupBenefits = document.querySelector('.popup-benefits');
 
-  // Banco de dados dos produtos
+ 
   const produtos = {
     "Fã do max": {
       descricao: "Apoie o <strong>max</strong> financeiramente!",
@@ -69,7 +69,7 @@
         descricao: "Envie uma figurinha no servidor",
         beneficios: ["Não pode ser +18", "Não pode ser n4z1st4", "Não pode ser de apostas", "Não pode ser de pedof1l1a", "Não pode ser de nenhum crime"],
     },
-    // posso  adicionar os outros aqui seguindo o mesmo padrão
+
   };
 
   function showPopup(title, price) {

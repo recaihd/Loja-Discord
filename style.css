@@ -112,7 +112,51 @@
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
   }
 
-  /* Triângulo da tooltip */
+  .verificado {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+/* Tooltip */
+.verificado::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  bottom: 125%; /* acima do ícone */
+  left: 50%;
+  transform: translateX(-50%);
+  background: black;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 8px;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease;
+  font-size: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+
+.verificado::before {
+  content: '';
+  position: absolute;
+  bottom: 115%; 
+  left: 50%;
+  transform: translateX(-50%);
+  border: 6px solid transparent;
+  border-top-color: black;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.verificado:hover::after,
+.verificado:hover::before {
+  opacity: 1;
+}
+
+
+ 
   .card::before {
     content: '';
     position: absolute;
@@ -125,7 +169,7 @@
     transition: opacity 0.2s ease;
   }
 
-  /* Mostrar tooltip no hover */
+ 
   .card:hover::after,
   .card:hover::before {
     opacity: 1;
