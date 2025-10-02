@@ -61,9 +61,9 @@
         descricao: "Mande uma mensagem anônima no servidor",
         beneficios: ["❌ Mais de uma vez"],
     },
-    "Desliga o automod": {
-        descricao: "desliga o auto-mod do servidor por <strong>1 hora!</strong>",
-        beneficios: ["qualquer atitude ruim ainda e sujeita a penalidade"],
+    "Parceria": {
+        descricao: "Tenha uma parceria com o nosso servidor",
+        beneficios: ["Divulgação com @everyone", "Cargo de parceiro", "Pode divulgar o projeto no chat", "Mais de uma vez", "Sem everyone no chat"],
     },
     "Add Figurinha": {
         descricao: "Envie uma figurinha no servidor",
