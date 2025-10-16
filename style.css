@@ -296,3 +296,54 @@
       opacity: 1;
     }
   }
+
+  .discord-button {
+  position: absolute;
+  top: 20px;
+  right: 25px;
+  z-index: 5;
+}
+
+.discord-button a {
+  position: relative;
+  display: inline-block;
+  background: #5865F2;
+  border-radius: 12px;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  text-decoration: none;
+}
+
+.discord-button a:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px #5865F2;
+}
+
+.discord-button img {
+  width: 28px;
+  height: 28px;
+}
+
+.discord-button .tooltip {
+  position: absolute;
+  right: 60px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #000;
+  color: #fff;
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 13px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease;
+  white-space: nowrap;
+}
+
+.discord-button a:hover .tooltip {
+  opacity: 1;
+}
