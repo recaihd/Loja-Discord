@@ -21,6 +21,22 @@
       descricao: "Apoie o <strong>ter3cotec0</strong> financeiramente!",
       beneficios: ["✅ Todos os benefícios do cargo VIP <strong>ETERNO!</strong>", "✅ Agradecimento especial do teo", "✅ Cargo personalizado", "✅ Perde o family friend e pode xingar no chat sem perigo do automod", "✅ com limites claro...", "✅ Cor do cargo personalizada"],
     },
+    "Super Fã do malf": {
+      descricao: "Apoie o <strong>malf</strong> financeiramente!",
+      beneficios: ["✅ Todos os beneficios do Fã padrão", "✅ 5 de xp ao falar no chat"]
+    },
+    "Super Fã do max": {
+      descricao: "Apoie o <strong>max</strong> financeiramente!",
+      beneficios: ["✅ Todos os beneficios do Fã padrão", "✅ 5 de xp ao falar no chat"]
+    },
+    "Super Fã do recai": {
+      descricao: "Apoie o <strong>recai</strong> financeiramente!",
+      beneficios: ["✅ Todos os beneficios do Fã padrão", "✅ 5 de xp ao falar no chat"]
+    },
+    "Super Fã do ter3cotec0": {
+      descricao: "Apoie o <strong>ter3cotec0</strong> financeiramente!",
+      beneficios: ["✅ Todos os beneficios do Fã padrão", "✅ 5 de xp ao falar no chat"]
+    },
     "Tranque o chat": {
         descricao: "Tranque o chat-geral por 1 hora!",
         beneficios: ["Aparece que você trancou (caso queira)"],
