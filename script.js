@@ -88,6 +88,19 @@
 
   };
 
+  window.addEventListener("load", () => {
+  const params = new URLSearchParams(window.location.search);
+  const userParam = params.get("user");
+  if (!userParam) return;
+
+  const user = JSON.parse(decodeURIComponent(userParam));
+
+  const avatarURL = `https://cdn.discordapp.com/avatars/${user.id}/${user.avatar}.png?size=128`;
+  const btn = document.getElementById("loginBtn");
+  btn.innerHTML = `<img src="${avatarURL}" style="width:24px;height:24px;border-radius:50%;margin-right:8px;"> ${user.username}`;
+});
+
+
   function showPopup(title, price) {
     popupTitle.textContent = `1x ${title}`;
     popupPrice.textContent = `Total: ${price}`;
