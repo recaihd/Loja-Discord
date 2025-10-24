@@ -97,7 +97,7 @@
 
   const avatarURL = `https://cdn.discordapp.com/avatars/${user.id}/${user.avatar}.png?size=128`;
   const btn = document.getElementById("loginBtn");
-  btn.innerHTML = `<img src="${avatarURL}" style="width:24px;height:24px;border-radius:50%;margin-right:8px;"> ${user.username}`;
+  btn.innerHTML = `<img src="${avatarURL}" style="width:24px;height:24px;border-radius:50%;margin-right:8px;"> `;
 });
 
 
