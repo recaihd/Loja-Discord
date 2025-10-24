@@ -9,6 +9,14 @@
   <meta name="theme-color" content="#00BFFF">
   <link rel="icon" href="./img/discord-PNG3.png" type="image/png">
 
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-W879294Z2R"></script>
+  <script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'G-W879294Z2R');
+  </script>
 
 </head>
 <body>
@@ -16,13 +24,15 @@
   
 
   
-    
+    <!--- icone da loja/servidor -->
   <div class="header">
     <a href="">
     <img src="./img/recai-server.gif" alt="Logo do servidor">
     </a>
   </div>
 
+
+  <!--- botão de logar com o discord (oauth) -->
 <div class="discord-button">
   <a id="loginBtn" href="https://discord.com/oauth2/authorize?client_id=1397229571186757663&response_type=code&redirect_uri=https%3A%2F%2Fapi.recai.shop%2Fdiscord%2Fcallback&scope=identify+guilds+email">
     <img src="./img/de-removebg-preview.png" alt="Discord">
@@ -30,7 +40,7 @@
   </a>
 </div>
 
-
+<!--- parte superior do site -->
   <div class="titulo">
     <h1>Loja do RecaiHD</h1>
     <div class="verificado" data-tooltip="Este site e verificado.">
@@ -38,7 +48,7 @@
   </div>
   </div>
 
-
+<!--- apoie algum adm -->
   <h2>Apoie um administrador</h2>
   <div class="produtos">
      <div class="card" data-tooltip="Apoie o malf e obtenha béneficios">
@@ -60,6 +70,8 @@
 
   </div>
 
+
+  <!--- super fans -->
   <h2>Super Fã</h2>
   <div class="produtos">
      <div class="card" data-tooltip="Apoie o malf e obtenha béneficios">
@@ -81,7 +93,7 @@
 
   </div>
 
- 
+ <!--- produtos de entretenimento e funcionalidades -->
   <h2>Entretenimento</h2>
   <div class="produtos">
 
@@ -110,7 +122,7 @@
     <div class="card" data-tooltip="Adicione uma figurinha no servidor"><div class="card-icon"><img src="./img/acutu.gif"></div><div class="card-title">Add Figurinha</div><div class="card-price">R$5,00</div></div>
   </div>
 
-
+<!--- aba de funções -->
   <h2>Funcionalidades</h2>
   <div class="produtos">
     <div class="card" data-tooltip="Obtenha um cargo VIP no servidor"><div class="card-icon"><img src="./img/estrelinhaoo.png"></div><div class="card-title">Cargo VIP</div><div class="card-price">R$2,00</div></div>
@@ -132,7 +144,7 @@
   </div>
 
 
-
+<!--- popup dos produtos -->
   <div class="popup" id="popupBox">
     <div class="popup-content">
       <h3 id="popupTitle">1x Produto</h3>

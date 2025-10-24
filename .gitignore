@@ -1,8 +1,9 @@
+.tmp.drivedownload/
 
 .tmp.driveupload/
 
 Thumbs.db
-.DS_Store
 
+.DS_Store
 
 *.log
