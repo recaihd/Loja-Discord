@@ -1,9 +1,8 @@
-# Ignorar pasta temporária do Google Drive
+
 .tmp.driveupload/
 
-# Ignorar arquivos do sistema (caso esteja no Windows/macOS)
 Thumbs.db
 .DS_Store
 
-# Ignorar arquivos de log, se algum for criado
+
 *.log
