@@ -95,10 +95,14 @@
 
   const user = JSON.parse(decodeURIComponent(userParam));
 
-  const avatarURL = `https://cdn.discordapp.com/avatars/${user.id}/${user.avatar}.png?size=128`;
+  const avatarURL = user.avatar
+    ? `https://cdn.discordapp.com/avatars/${user.id}/${user.avatar}.png?size=128`
+    : `https://cdn.discordapp.com/embed/avatars/${user.discriminator % 5}.png`;
+
   const btn = document.getElementById("loginBtn");
   btn.innerHTML = `<img src="${avatarURL}" style="width:24px;height:24px;border-radius:50%;margin-right:8px;"> `;
 });
+
 
 
   function showPopup(title, price) {
